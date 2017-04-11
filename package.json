@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-setapp",
+  "version": "1.0.0",
+  "description": "Setapp code style rules for Eslint Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacPaw/eslint-config-setapp.git"
+  },
+  "keywords": [],
+  "author": "Dmitry Lutsik <lutsik@macpaw.com>",
+  "contributors": [
+    {
+      "name": "Oleksandr Kovpashko",
+      "email": "sandro@macpaw.com"
+    },
+    {
+      "name": "Bogdan Onikiienko",
+      "email": "onikiienko@macpaw.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MacPaw/eslint-config-setapp/issues"
+  },
+  "homepage": "https://github.com/MacPaw/eslint-config-setapp#readme"
+}
