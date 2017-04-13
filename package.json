@@ -1,14 +1,14 @@
 {
-  "name": "eslint-config-setapp",
+  "name": "@macpaw/eslint-config-webservices",
   "version": "1.0.0",
-  "description": "Setapp code style rules for Eslint Edit",
+  "description": "Macpaw webservices team code style rules for Eslint",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MacPaw/eslint-config-setapp.git"
+    "url": "git+https://github.com/MacPaw/eslint-config-webservices.git"
   },
   "keywords": [],
   "author": "Dmitry Lutsik <lutsik@macpaw.com>",
@@ -24,7 +24,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MacPaw/eslint-config-setapp/issues"
+    "url": "https://github.com/MacPaw/eslint-config-webservices/issues"
   },
-  "homepage": "https://github.com/MacPaw/eslint-config-setapp#readme"
+  "homepage": "https://github.com/MacPaw/eslint-config-webservices#readme"
 }
