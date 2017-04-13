@@ -43,6 +43,11 @@ module.exports = {
 
   rules: {
     // http://eslint.org/docs/rules/
+    'indent': ['warn', 2, {
+      'SwitchCase': 1,
+      'MemberExpression': 1,
+    }],
+    'no-multiple-empty-lines': ['warn', {max: 1}],
     'no-var': 'warn',
     'semi': ['warn', 'always', {'omitLastInOneLineBlock': true}],
     'no-extra-semi': ['warn'],
