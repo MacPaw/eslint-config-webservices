@@ -1,31 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
 
-  env: {
-    browser: true,
-    commonjs: true,
-    es6: true,
-    node: true
-  },
-
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
-      generators: true,
-      experimentalObjectRestSpread: true
-    }
-  },
-
-  globals: {
-    it: true,
-    describe: true,
-    beforeEach: true,
-    afterEach: true,
-    before: true,
-    after: true,
-    env: true,
   },
 
   settings: {
@@ -147,7 +124,6 @@ module.exports = {
     radix: 'warn',
     'require-yield': 'warn',
     'rest-spread-spacing': ['warn', 'never'],
-    strict: ['warn', 'never'],
     'unicode-bom': ['warn', 'never'],
     'use-isnan': 'warn',
     'valid-typeof': 'warn',
