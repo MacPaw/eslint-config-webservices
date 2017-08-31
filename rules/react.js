@@ -8,10 +8,6 @@ module.exports = {
     },
   },
 
-  ecmaFeatures: {
-    jsx: true,
-  },
-
   rules: {
     'react/jsx-equals-spacing': ['warn', 'never'],
     'react/jsx-no-duplicate-props': ['warn', {ignoreCase: true}],
