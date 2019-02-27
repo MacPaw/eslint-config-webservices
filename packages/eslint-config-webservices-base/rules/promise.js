@@ -4,7 +4,7 @@ module.exports = {
   ],
 
   rules: {
-    "promise/param-names": 'warn',
+    "promise/param-names": 'error',
     "promise/catch-or-return": 'warn',
   },
 };
