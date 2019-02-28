@@ -1,0 +1,42 @@
+{
+  "name": "@macpaw/eslint-config-webservices",
+  "version": "3.0.0",
+  "description": "Macpaw webservices team code style rules for Eslint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MacPaw/eslint-config-webservices.git"
+  },
+  "keywords": [],
+  "author": "Dmitry Lutsik <lutsik@macpaw.com>",
+  "contributors": [
+    {
+      "name": "Oleksandr Kovpashko",
+      "email": "sandro@macpaw.com"
+    },
+    {
+      "name": "Bogdan Onikiienko",
+      "email": "onikiienko@macpaw.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MacPaw/eslint-config-webservices/issues"
+  },
+  "homepage": "https://github.com/MacPaw/eslint-config-webservices#readme",
+  "peerDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^5.0.0",
+    "eslint-plugin-filenames": "^1.2.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0"
+  },
+  "dependencies": {
+    "@macpaw/eslint-config-webservices-base": "^0.0.1",
+    "eslint-config-airbnb": "^17.1.0"
+  }
+}
