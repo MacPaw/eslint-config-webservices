@@ -31,5 +31,9 @@ module.exports = {
     'react/forbid-foreign-prop-types': 'error',
     'react/no-direct-mutation-state': 'error',
     'react/no-access-state-in-setstate': 'error',
+    'react/sort-prop-types': ['error', {
+      callbacksLast: true,
+      noSortAlphabetically: true,
+    }],
   }
 };
