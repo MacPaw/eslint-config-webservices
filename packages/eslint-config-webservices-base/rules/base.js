@@ -20,6 +20,13 @@ module.exports = {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     'one-var': 'off',
     'class-methods-use-this': 'off',
+    'max-len': ['error', 120, 2, {
+      ignoreUrls: true,
+      ignoreComments: false,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
 
     // Custom rules
     'no-shadow': 'off', // to avoid warnings for mapped from redux properties
