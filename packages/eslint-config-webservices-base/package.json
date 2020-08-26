@@ -1,6 +1,6 @@
 {
   "name": "@macpaw/eslint-config-webservices-base",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Macpaw webservices team code style rules for Eslint",
   "main": "index.js",
   "scripts": {
